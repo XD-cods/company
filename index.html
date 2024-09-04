@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#111111" />
+    <title>Company</title>
+    <link
+      rel="preload"
+      href="fonts/Inter-Light.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/Inter-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/Inter-Medium.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/Inter-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/Inter-Semibold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script defer="defer" src="js/main.js"></script>
+  </head>
+  <body class="page__body">
+    <div class="site-container">
+      <header class="header">
+        <div class="container">
+          <div class="logo">Company</div>
+          <nav class="nav">
+            <div class="nav__action" data-menu>
+              <div class="nav__search">
+                <button class="nav__btn" aria-label="Открыть поиск">
+                  <svg class="nav__icon">
+                    <use xlink:href="img/sprite.svg#search"></use>
+                  </svg>
+                </button>
+                <input type="text" class="nav__input" />
+              </div>
+              <ul class="list-reset nav__list">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Portfolio</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Team</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Blog</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <button
+            class="burger"
+            aria-label="Открыть меню"
+            aria-expanded="false"
+            data-burger
+          >
+            <span class="burger__line"></span>
+          </button>
+        </div>
+      </header>
+      <main class="main">
+        <section class="hero">
+          <div class="container">
+            <h1 class="hero__tittle">We produce<br />the best products</h1>
+            <p class="hero__descr descr">
+              Mattis quam, lectus et justo amet, tortor, lectus dapibus est.
+              Habitasse efficitur sodales vel est.
+            </p>
+            <button class="hero__button button button--white">button</button>
+          </div>
+        </section>
+        <section class="about">
+          <div class="container">
+            <div class="about__left">
+              <div class="about__block">
+                <span class="about__number">20,000</span>
+                <span class="about__name">completed projects</span>
+              </div>
+              <div class="about__block">
+                <span class="about__number">10,000</span>
+                <span class="about__name">prototypes</span>
+              </div>
+              <div class="about__block">
+                <span class="about__number">347</span>
+                <span class="about__name">completed projects</span>
+              </div>
+            </div>
+            <div class="about__right">
+              <div class="about__text text-big">
+                Amet, mattis dapibus malesuada arcu dapibus nec efficitur
+                et dictum. In sit odio. Tempus leo, dictum.
+              </div>
+              <p class="about__descr descr">
+                Amet, mattis dapibus malesuada arcu dapibus nec efficitur
+                et dictum. In sit odio. Tempus leo, dictum. Sit mattis mattis
+                lorem cursus velit sit sed et vitae quam, sed nulla dapibus
+                venenatis odio.
+              </p>
+              <p class="about__descr descr">
+                Venenatis sapien aenean adipiscing lacinia nec lacinia lacinia
+                et quam, ultricies. Dictum. Ipsum sodales sit id nec sed sodales
+                mattis mollis quis, pellentesque habitasse ex.
+              </p>
+            </div>
+          </div>
+        </section>
+        <div class="video">
+          <div class="container">
+            <div class="video__body"><button class="video__btn"></button></div>
+          </div>
+        </div>
+        <section class="project">
+          <div class="container">
+            <div class="project__row row-project">
+              <div class="row-project__left">
+                <h3 class="row-project__tittle tittle-3">Et odio</h3>
+                <p class="row-project__descr descr">
+                  Mauris eget nec nulla dolor ex. Sodales luctus pellentesque
+                  cras ornare lorem luctus lectus sed consectetur quam, est.
+                  Libero, odi
+                </p>
+                <div class="row-project__block">
+                  <button class="row-project__btutton button">Button</button>
+                </div>
+              </div>
+              <div class="row-project__right">
+                <picture class="row-project__image" aria-hidden="true"
+                  ><source
+                    srcset="img/pr-1.webp"
+                    type="image/webp"
+                    aria-hidden="true" />
+                  <img
+                    loading="lazy"
+                    src="img/pr-1.jpg"
+                    width="1140"
+                    height="800"
+                    aria-hidden="true"
+                /></picture>
+              </div>
+            </div>
+            <div class="project__row row-project">
+              <div class="row-project__left">
+                <picture class="row-project__image" aria-hidden="true"
+                  ><source
+                    srcset="img/pr-2.webp"
+                    type="image/webp"
+                    aria-hidden="true" />
+                  <img
+                    loading="lazy"
+                    src="img/pr-2.jpg"
+                    width="1140"
+                    height="800"
+                    aria-hidden="true"
+                /></picture>
+              </div>
+              <div class="row-project__right">
+                <h3 class="row-project__tittle tittle-3">Et odio</h3>
+                <p class="row-project__descr descr">
+                  Mauris eget nec nulla dolor ex. Sodales luctus pellentesque
+                  cras ornare lorem luctus lectus sed consectetur quam, est.
+                  Libero, odi
+                </p>
+                <div class="row-project__block">
+                  <button class="row-project__btutton button">Button</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="citat">
+          <div class="container">
+            <span class="citat__desriptor descriptor descriptor--grey"
+              >Quoute</span
+            >
+            <blockquote class="citat__citate citate">
+              Accumsan vulputate efficitur in amet, vestibulum ornare morbi
+              accumsan leo, est. Consectetur ultricies. Sapien est. Dictumst.
+              Sapien habitasse interdum in amet, lectus molestie vel ut.
+              Malesuada efficitur mattis id mattis aenean interdum lectus quam,
+              dapibus nec augue vulputate leo, ornare elit.
+            </blockquote>
+            <span class="citat__desriptor descriptor"
+              >Alex Lee /
+              <span class="descriptor descriptor--grey"
+                >Co-founder & SEO</span
+              ></span
+            >
+          </div>
+        </section>
+        <div class="main__block">
+          <div class="container">
+            <picture
+              ><source class="image" srcset="img/i.webp" type="image/webp" />
+              <img
+                class="image"
+                loading="lazy"
+                src="img/i.jpg"
+                width="3200"
+                height="gul1800"
+                aria-hidden="true"
+            /></picture>
+          </div>
+        </div>
+      </main>
+      <section class="our">
+        <div class="container">
+          <div class="our__row">
+            <div class="our__left"><div class="our__name">Branding</div></div>
+            <div class="our__right">
+              <p class="our__descr descr">
+                Quam, tortor, interdum consectetur eleifend integer et. Accumsan
+                vulputate efficitur in amet, vestibulum ornare morbi accumsan
+                leo, est. Consectetur ultricies.
+              </p>
+            </div>
+          </div>
+          <div class="our__row">
+            <div class="our__left"><div class="our__name">Web-apps</div></div>
+            <div class="our__right">
+              <p class="our__descr descr">
+                Malesuada efficitur mattis id mattis aenean interdum lectus
+                quam, dapibus nec augue vulputate leo, ornare elit. Pulvinar sed
+                quam, arcu pulvinar nisi ipsum quis, sodales molestie ex.
+              </p>
+            </div>
+          </div>
+          <div class="our__row">
+            <div class="our__left"><div class="our__name">Design</div></div>
+            <div class="our__right">
+              <p class="our__descr descr">
+                Cras amet, sed sapien orci, leo, sit ornare risus tortor, ex.
+                Mauris non orci, sed elit. Cursus ex. Aenean ipsum dolor augue
+                tempus et molestie ipsum adipiscing leo, sit interdum venenatis
+                odio.
+              </p>
+            </div>
+          </div>
+          <div class="our__row">
+            <div class="our__left"><div class="our__name">Strategy</div></div>
+            <div class="our__right">
+              <p class="our__descr descr">
+                Quam, tortor, interdum consectetur eleifend integer et. Accumsan
+                vulputate efficitur in amet, vestibulum ornare morbi accumsan
+                leo, est. Consectetur ultricies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__left">
+            <div class="footer__logo logo">Company</div>
+            <span class="footer__subtittle"
+              >Dorivit BV, Monitorweg 1, Almere 1322BJ, Netherlands</span
+            >
+          </div>
+          <div class="footer__right">
+            <div class="footer__name">
+              Id sodales interdum dui mollis non in odio
+            </div>
+            <form action="#">
+              <input
+                type="email"
+                name="email"
+                class="footer__input input-reset"
+                placeholder="E-MAIL"
+              />
+            </form>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
